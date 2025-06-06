@@ -1,0 +1,14 @@
+[project]
+name = "injectkit"
+version = "0.1.0"
+description = "Dependency-injected services for Airflow DAGs"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "injector",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

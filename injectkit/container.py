@@ -1,9 +1,9 @@
 from injector import Module, Binder, singleton, provider, Injector
-from app.config import AppConfig
-from app.core.logging_service import LoggingService
-from app.services.greeting_service import GreetingService
-from app.services.user_service import UserService
-from app.core.database import Database
+from Injectkit.config import AppConfig
+from Injectkit.core.logging_service import LoggingService
+from Injectkit.services.greeting_service import GreetingService
+from Injectkit.services.user_service import UserService
+from Injectkit.core.database import Database
 
 class AppModule(Module):
     def configure(self, binder: Binder):

@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from injector import inject, singleton
-from app.config import AppConfig
+from Injectkit.config import AppConfig
 
 @singleton
 class Database:

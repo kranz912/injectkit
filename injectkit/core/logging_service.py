@@ -1,5 +1,5 @@
 import logging
-from app.config import AppConfig
+from Injectkit.config import AppConfig
 from injector import inject
 import os
 

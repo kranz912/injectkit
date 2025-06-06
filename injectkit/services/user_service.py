@@ -1,7 +1,7 @@
 from injector import inject
-from app.services.greeting_service import GreetingService
-from app.core.logging_service import LoggingService
-from app.config import AppConfig
+from Injectkit.services.greeting_service import GreetingService
+from Injectkit.core.logging_service import LoggingService
+from Injectkit.config import AppConfig
 
 class UserService:
     @inject
